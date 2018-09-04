@@ -1,0 +1,9 @@
+00 00 00 00 00 00 00 00 /* 8 bytes padding for buffer size */
+00 00 00 00 00 00 00 00 /* Another 8 bytes padding for buffer size */
+00 00 00 00 00 00 00 00 /* Another 8 bytes. So total 24 bytes or 0x18 bytes as used by buffer size in getbuf */
+00 00 00 00 00 00 00 00 /* 8 bytes padding for buffer size */
+00 00 00 00 00 00 00 00 /* Another 8 bytes padding for buffer size */
+00 00 00 00 00 00 00 00 /* Another 8 bytes. So total 24 bytes or 0x18 bytes as used by buffer size in getbuf */
+00 00 00 00 00 00 00 00 /* 8 bytes padding for buffer size */
+0b 18 40 00 00 00 00 00 /* Address of touch1 in little endian order */
+
